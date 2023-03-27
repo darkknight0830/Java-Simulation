@@ -1,14 +1,15 @@
 import java.util.Random;
 import java.util.Arrays;
-    class timtim {
-        public static void main(String[] args) {
-            int computers = 20; // number of computers in the network
-            int r = 5; // max number of computers cleaned daily
-            double p = 0.1; // probability of spreading the virus
-            int currentlyInfected = 1;
-            boolean endFlag = false;
-            int simulations = 50;
-            int[] averageLog = new int[simulations];
+    
+class Main {
+      public static void main(String[] args) {
+        int computers = 20; // number of computers in the network
+        int r = 5; // max number of computers cleaned daily
+        double p = 0.1; // probability of spreading the virus
+        int currentlyInfected = 1;
+        boolean endFlag = false;
+        int simulations = 50;
+        int[] averageLog = new int[simulations];
 
             for (int y = 0; y < simulations; y++) {
                 int time = 1;
